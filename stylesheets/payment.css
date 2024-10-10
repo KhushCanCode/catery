@@ -1,3 +1,12 @@
+:root {
+    --dark: #242038;
+    --purple: #9067C6;
+    --indigo: #8D86C9;
+    --gray: #CAC4CE;
+    --linen: #CAC4CE;
+}
+
+
 .popup {
     display: none;
     position: fixed;
@@ -15,7 +24,7 @@
     background-color: white;
     padding: 2rem;
     border-radius: 1rem;
-    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 0 2px rgba(0, 0, 0, 0.2);
     width: 90%;
     max-width: 500px;
 }
@@ -24,6 +33,8 @@
     max-height: 300px;
     overflow-y: auto;
     margin-bottom: 1rem;
+    display: flex;
+    gap:1rem;
 }
 
 .cart-item {
@@ -40,16 +51,16 @@
 
 .payment-options {
     margin-top: 1.5rem;
+    
 }
 
 .payment-options label {
     font-size: 1rem;
     display: block;
-    margin-bottom: 0.5rem;
 }
 
 #place-order-btn, #close-popup-btn {
-    background-color: #28a745;
+    background-color: var(--indigo);
     color: white;
     padding: 0.75rem 1.5rem;
     border: none;
@@ -61,24 +72,44 @@
     margin-top: 1rem;
 }
 
-#place-order-btn:hover, #close-popup-btn:hover {
-    background-color: #218838;
+#place-order-btn:hover {
+    background-color: var(--purple);
 }
 
 #close-popup-btn {
-    background-color: #dc3545;
+    background-color: #e55866;
 }
-
+#close-popup-btn:hover{
+    background-color: #dd3142;
+}
 #orders-section {
-    padding: 2rem;
+    width: 100%;
+    margin-top: 5rem;
 }
 
 #orders-list {
     margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    gap:1rem;
 }
 
 .order-item {
     padding: 1rem;
     border-bottom: 1px solid #ddd;
     font-size: 1rem;
+    width: 50%;
+}
+
+
+
+@media (max-width: 768px) {
+    
+    #orders-list {
+        flex-direction: column;
+        
+    }
+    .order-item{
+        width: 100%;
+    }
 }

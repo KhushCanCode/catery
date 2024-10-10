@@ -11,40 +11,30 @@ const foodData = {
         { name: "Kachori", price: "₹60", description: "Fried pastry filled with spicy lentils.", image: "/images/kachori.jpg" }
     ],
     maindishes: [
-        { name: "Butter Chicken", price: "₹250", description: "Creamy chicken curry with buttery tomato sauce.", image: "butterchicken.jpg" },
-        { name: "Paneer Butter Masala", price: "₹180", description: "Paneer cubes cooked in a rich buttery tomato gravy.", image: "paneerbuttermasala.jpg" },
-        { name: "Biryani", price: "₹300", description: "Fragrant rice dish with marinated chicken and spices.", image: "biryani.jpg" },
-        { name: "Dal Tadka", price: "₹120", description: "Yellow lentils cooked with tempering of garlic, cumin, and ghee.", image: "daltadka.jpg" },
-        { name: "Palak Paneer", price: "₹150", description: "Paneer cubes in a spinach curry.", image: "palakpaneer.jpg" },
-        { name: "Tandoori Chicken", price: "₹200", description: "Grilled chicken marinated in tandoori spices.", image: "tandoorichicken.jpg" },
-        { name: "Rogan Josh", price: "₹280", description: "Lamb curry with rich and aromatic spices.", image: "roganjosh.jpg" },
-        { name: "Kadhi Pakora", price: "₹140", description: "Fried gram flour dumplings in a tangy yogurt-based curry.", image: "kadhipakora.jpg" },
-        { name: "Chole Bhature", price: "₹180", description: "Spicy chickpea curry with deep-fried bread.", image: "cholebhature.jpg" },
-        { name: "Chicken Korma", price: "₹250", description: "Aromatic chicken curry with a blend of spices and nuts.", image: "chickenkorma.jpg" }
+        { name: "Butter Chicken", price: "₹250", description: "Creamy chicken curry with buttery tomato sauce.", image: "/images/butterchicken.jpg" },
+        { name: "Paneer Butter Masala", price: "₹180", description: "Paneer cubes cooked in a rich buttery tomato gravy.", image: "/images/paneer.jpg" },
+        { name: "Biryani", price: "₹300", description: "Fragrant rice dish with marinated chicken and spices.", image: "/images/biryani.jpg" },
+        { name: "Dal Tadka", price: "₹120", description: "Yellow lentils cooked with tempering of garlic, cumin, and ghee.", image: "/images/daltadka.jpg" },
+        { name: "Palak Paneer", price: "₹150", description: "Paneer cubes in a spinach curry.", image: "/images/palakpaneer.jpg" },
+        { name: "Tandoori Chicken", price: "₹200", description: "Grilled chicken marinated in tandoori spices.", image: "/images/tandoorichicken.jpg" },
+        { name: "Kadhi Pakora", price: "₹140", description: "Fried gram flour dumplings in a tangy yogurt-based curry.", image: "/images/kadhipakora.jpg" },
+        { name: "Chole Bhature", price: "₹180", description: "Spicy chickpea curry with deep-fried bread.", image: "/images/cholebhature.jpeg" },
+        { name: "Chicken Korma", price: "₹250", description: "Aromatic chicken curry with a blend of spices and nuts.", image: "/images/chickenkorma.jpeg" }
     ],
     desserts: [
-        { name: "Gulab Jamun", price: "₹50", description: "Fried dumplings soaked in sugary syrup.", image: "gulabjamun.jpg" },
-        { name: "Rasgulla", price: "₹60", description: "Spongy balls of chhena soaked in light syrup.", image: "rasgulla.jpg" },
-        { name: "Jalebi", price: "₹40", description: "Crispy fried rings soaked in sweet syrup.", image: "jalebi.jpg" },
-        { name: "Rava Kesari", price: "₹80", description: "Sweet semolina dessert with ghee and cardamom.", image: "ravakesari.jpg" },
-        { name: "Kheer", price: "₹100", description: "Rice pudding with milk, sugar, and cardamom.", image: "kheer.jpg" },
-        { name: "Mysore Pak", price: "₹90", description: "Rich, dense sweet made with ghee and gram flour.", image: "mysorepak.jpg" },
-        { name: "Ladoo", price: "₹50", description: "Sweet balls made from flour, sugar, and ghee.", image: "ladoo.jpg" },
-        { name: "Barfi", price: "₹70", description: "Milk-based sweet with nuts and cardamom.", image: "barfi.jpg" },
-        { name: "Pista Kulfi", price: "₹120", description: "Pistachio-flavored Indian ice cream.", image: "pistakulfi.jpg" },
-        { name: "Falooda", price: "₹150", description: "Rose syrup, vermicelli, and sweet basil seeds with milk.", image: "falooda.jpg" }
+        { name: "Gulab Jamun", price: "₹50", description: "Fried dumplings soaked in sugary syrup.", image: "/images/gulabjamun.jpg" },
+        { name: "Rasgulla", price: "₹60", description: "Spongy balls of chhena soaked in light syrup.", image: "/images/rasgulla.jpg" },
+        { name: "Jalebi", price: "₹40", description: "Crispy fried rings soaked in sweet syrup.", image: "/images/jalebi.jpg" },
+        { name: "Kheer", price: "₹100", description: "Rice pudding with milk, sugar, and cardamom.", image: "/images/kheer.png" },
+        { name: "Ladoo", price: "₹50", description: "Sweet balls made from flour, sugar, and ghee.", image: "/images/ladoo.jpg" },
+        { name: "Barfi", price: "₹70", description: "Milk-based sweet with nuts and cardamom.", image: "/images/barfi.jpg" },
+        { name: "Falooda", price: "₹150", description: "Rose syrup, vermicelli, and sweet basil seeds with milk.", image: "/images/falooda.jpg" }
     ],
     beverages: [
-        { name: "Masala Chai", price: "₹40", description: "Spiced Indian tea brewed with milk and spices.", image: "masalachai.jpg" },
-        { name: "Lassi", price: "₹60", description: "Sweet or salty yogurt drink.", image: "lassi.jpg" },
-        { name: "Thums Up", price: "₹50", description: "Popular Indian cola drink.", image: "thumsup.jpg" },
-        { name: "Nimbu Pani", price: "₹30", description: "Refreshing lemon water with sugar and salt.", image: "nimbupani.jpg" },
-        { name: "Sugarcane Juice", price: "₹70", description: "Freshly pressed sugarcane juice.", image: "sugarcanejuice.jpg" },
-        { name: "Buttermilk", price: "₹50", description: "Chilled buttermilk with spices.", image: "buttermilk.jpg" },
-        { name: "Chaas", price: "₹40", description: "Spiced yogurt drink.", image: "chaas.jpg" },
-        { name: "Rooh Afza", price: "₹60", description: "Sweet rose syrup with water or milk.", image: "roohafza.jpg" },
-        { name: "Coffee", price: "₹100", description: "Indian-style brewed coffee.", image: "coffee.jpg" },
-        { name: "Cold Coffee", price: "₹120", description: "Iced coffee with milk and sugar.", image: "coldcoffee.jpg" }
+        { name: "Masala Chai", price: "₹40", description: "Spiced Indian tea brewed with milk and spices.", image: "/images/chai.jpg" },
+        { name: "Cold Drink", price: "₹50", description: "Popular Indian cola drink.", image: "/images/colddrink.jpg" },
+        { name: "Coffee", price: "₹100", description: "Indian-style brewed coffee.", image: "/images/coffee.jpg" },
+        { name: "Cold Coffee", price: "₹120", description: "Iced coffee with milk and sugar.", image: "/images/coldcoffee.jpg" }
     ]
 };
 // Function to render the selected category
@@ -175,41 +165,37 @@ function attachCartEventListeners() {
     });
 }
 
-// Update the total amount in the cart
 function updateTotalAmount() {
     const totalAmountCart = cart.reduce((sum, cartItem) => sum + (parseFloat(cartItem.price.replace('₹', '')) * cartItem.quantity), 0);
     document.getElementById('total-amount-cart').innerText = totalAmountCart.toFixed(2);
 }
 
-// Open the payment popup and show total payable
 function openPaymentPopup() {
     const popup = document.getElementById('payment-popup');
     const cartItemsList = document.getElementById('cart-items-list');
     const popupTotalAmount = document.getElementById('popup-total-amount');
 
-    // Reset cart list
     cartItemsList.innerHTML = '';
 
-    // Initialize total price for popup
     let totalPrice = 0;
 
-    // Iterate through cart items for popup
     cart.forEach(item => {
         const cartItem = document.createElement('div');
         cartItem.classList.add('cart-item');
         cartItem.innerHTML = `
+        <div>
             <h4>${item.name}</h4>
             <div>Quantity: ${item.quantity}</div>
-            <div>Price: ₹${Number(item.price) * Number(item.quantity)}</div>
+            <div>Price: ${(parseFloat(item.price.replace('₹', '')) * item.quantity).toFixed(2)}</div>
+        </div>    
         `;
         cartItemsList.appendChild(cartItem);
 
-        // Calculate total price ensuring both price and quantity are numbers
-        totalPrice += Number(item.price) * Number(item.quantity);
+        totalPrice += parseFloat(item.price.replace('₹', '')) * item.quantity;
+
     });
 
-    // Set total price in the popup
-    popupTotalAmount.innerText = totalPrice.toFixed(2);  // Ensures two decimal points
+    popupTotalAmount.innerText = totalPrice.toFixed(2); 
 
     // Show popup
     popup.style.display = 'flex';
@@ -254,7 +240,7 @@ function placeOrder() {
 
     // List each item with quantity and price
     cart.forEach(item => {
-        orderSummary += `<li>${item.name} - Quantity: ${item.quantity} - Price: ₹${(Number(item.price) * item.quantity).toFixed(2)}</li>`;
+        orderSummary += `<li>${item.name} - Quantity: ${item.quantity} - Price: ₹${(parseFloat(item.price.replace('₹', '')) * item.quantity).toFixed(2)}</li>`;
     });
 
     orderSummary += `</ul>`;
