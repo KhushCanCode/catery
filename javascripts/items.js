@@ -37,6 +37,8 @@ const foodData = {
         { name: "Cold Coffee", price: "₹120", description: "Iced coffee with milk and sugar.", image: "/images/coldcoffee.jpg" }
     ]
 };
+
+
 // Function to render the selected category
 function loadCategory(category) {
     const foodItems = document.getElementById('food-items');
@@ -67,7 +69,7 @@ function loadCategory(category) {
     });
 }
 
-// Call the default category
+// Call the default category on content load
 document.addEventListener('DOMContentLoaded', function () {
     loadCategory('appetizers');
 
@@ -170,6 +172,8 @@ function updateTotalAmount() {
     document.getElementById('total-amount-cart').innerText = totalAmountCart.toFixed(2);
 }
 
+
+//Payment popup when checkout is clicked
 function openPaymentPopup() {
     const popup = document.getElementById('payment-popup');
     const cartItemsList = document.getElementById('cart-items-list');
@@ -207,7 +211,7 @@ function closePaymentPopup() {
     popup.style.display = 'none';
 }
 
-
+//When Place order is clicked
 function placeOrder() {
     const selectedPaymentMethod = document.querySelector('input[name="payment-method"]:checked');
     
